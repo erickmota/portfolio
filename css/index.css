@@ -1,0 +1,86 @@
+body{
+
+    background-color: #212121;
+
+}
+
+#barraInicio{
+
+    width: 100%;
+    height: 68px;
+    background-color: #0f0f0f;
+    position:fixed;
+
+}
+
+#logo{
+
+    width: 150px;
+    margin-top: 3px;
+
+}
+
+#menu ul{
+
+    display: inline-block;
+    padding-left: 40px;
+
+}
+
+#divCentro{
+
+    position: absolute;
+    top: 35%;
+
+}
+
+#divIcones{
+
+    position: fixed;
+    left: 0px;
+    top: 30%;
+    background-color: aliceblue;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: -30px;
+
+}
+
+.nomePrincipal{
+
+    font-size: 50px;
+
+}
+
+#listaIcones{
+
+    margin-top: 20px;
+
+}
+
+#listaIcones li{
+
+    display: block;
+    margin-left: -10px;
+
+}
+
+.imgGithub{
+
+    width: 30px;
+    padding-bottom: 3px;
+    margin-left: 4px;
+
+}
+
+.imgLinkedin{
+
+    width: 38px;
+
+}
+
+.imgInstagram{
+
+    width: 37px;
+
+}
