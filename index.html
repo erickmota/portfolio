@@ -14,18 +14,23 @@
     <!-- animate.css -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css"/>
 
-    <link rel="stylesheet" href="css/index.css">
-
     <!-- Typed.js -->
     <script src="node_modules/typed.js/dist/typed.umd.js"></script>
 
+    <!-- AOS Animate -->
+    <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
+    <script src="node_modules/aos/dist/aos.js"></script>
 
+    <!-- Arquivos internos -->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
 
 </header>
 
 <body>
 
-    <div class="container-fluid">
+    <!-- Pagina Home -->
+    <div class="container-fluid" id="pgHome">
 
         <div id="barraInicio" class="row justify-content-center">
 
@@ -120,87 +125,63 @@
 
     </div>
 
-    <script>
+    <!-- Página Sobre -->
+    <div class="container-fluid" id="pgSobre">
 
-        document.addEventListener("DOMContentLoaded", function() {
-                            
-            setTimeout(mostraNome, 300);
-            setTimeout(mostraScroll, 10000);
-            setInterval(pulsaScroll, 11000);
+        <div class="row justify-content-center">
 
-        });
+            <div class="col-12" id="contPgSobre">
 
-        function mostraNome(){
+                <div class="row justify-content-center">
 
-            var typed = new Typed('.nomePrincipal', {
+                    <div class="col-5 text-light text-start">
+        
+                        <img src="img/Erick.jpg" id="fotoErick">
+        
+                    </div>
 
-                strings: ['BEM-VINDO AO MEU PORTFÓLIO'],
-                typeSpeed: 30,
-                cursorChar: '',
-                onComplete: (self) => {
+                    <div class="col-5 text-light text-start" data-aos="zoom-in-up">
 
-                    setTimeout(mostraSlogan, 500);
+                        <h2 class="tituloSobre">SOBRE MIM</h2>
+        
+                        <p class="sobre">
+                        
+                        Muito prazer, meu nome é Erick Mota e tenho 27 anos. Atualmente moro na cidade de Sorocaba-SP,
+                        cidade em que eu nasci fui criado e desenvolvi a paixão pelo mundo da tecnologia e por um bom café. Desde muito jovem comecei
+                        a desenvolver meus primeiros sites. Na época como não sabia muito sobre programação, tentava me virar com as
+                        ferramentas do Adobe Dreamweaver. Hoje, formado em análise e desenvolvimento de sistemas, posso criar, sites
+                        institucionais, sistemas web complexos e aplicativos mobile para Android e IOS.
+                        
+                        </p><br>
 
-                },
+                        <h2 class="tituloSobre">MINHAS SKILLS</h2>
 
-            });
+                        <ul class="listaSkill text-dark text-start mt-3">
 
-        }
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>C</li>
+                            <li>C#</li>
+                            <li>Bootstrap</li>
+                            <li>Jquery</li>
+                            <li>Phonegap</li>
+                            <li>MySQL</li>
+                            <li>SQL Server</li>
+                            <li>SQLite</li>
 
-        function mostraSlogan(){
+                        </ul>
+        
+                    </div>
 
-            var typed = new Typed('.slogan', {
+                </div>
 
-                strings: ['Olá, me chamo Erick Mota, tenho 27 anos e sou formado em<br>análise e desenvolvimento de sistemas.<br><br>Tenho conhecimento em:'],
-                typeSpeed: 30,
-                cursorChar: '',
-                onComplete: (self) => {
+            </div>
 
-                    setTimeout(mostraAtribrutos, 1000);
+        </div>
 
-                },
-
-            });
-
-        }
-
-        function mostraAtribrutos(){
-
-            var typed = new Typed('.atributos', {
-
-                strings: ['Desenvolvimento de sites institucionais', 'Desenvolvimento de sistemas web', 'Desenvolvimento de aplicativos móveis', 'Sistemas responsivos', 'Programação orientada a objetos', 'Programação em PHP', 'Programação em JavaScript', 'Linguagens de marcação, como HTML e CSS', 'Bibliotecas front-end, como Bootstrap', 'Banco de dados relacional'],
-                typeSpeed: 50,
-                backSpeed: 10,
-                cursorChar: '|',
-                loop: true,
-
-            });
-
-        }
-
-        function mostraScroll(){
-
-            var elemento = document.getElementById("imgScroll");
-
-            elemento.classList.remove("d-none");
-
-        }
-
-        function pulsaScroll(){
-
-            var elemento = document.getElementById("imgScroll");
-
-            elemento.classList.add("animate__bounce");
-
-            setTimeout(()=>{
-
-                elemento.classList.remove("animate__bounce");
-
-            }, 4000)
-
-        }
-
-    </script>
+    </div>
 
 </body>
 
