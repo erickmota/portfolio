@@ -37,7 +37,7 @@
             <div class="col-6 mt-3">
 
                 <!-- Logotipo em SVG -->
-                <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                <svg onclick="window.location='#pgHome'" version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                   viewBox="0 0 1257 223" style="enable-background:new 0 0 1257 223;" xml:space="preserve">
                 <style type="text/css">
                   @font-face{
@@ -60,10 +60,9 @@
 
                 <menu id="menu" class="text-light fw-bold">
 
-                    <ul>INICIO</ul>
-                    <ul>SOBRE</ul>
-                    <ul>PROJETOS</ul>
-                    <ul>CONTATO</ul>
+                    <ul><a href="#pgHome">INICIO</a></ul>
+                    <ul><a href="#pgSobre">SOBRE</a></ul>
+                    <ul><a href="#pgProjetos">PROJETOS</a></ul>
 
                 </menu>
 
@@ -91,19 +90,31 @@
 
                     <li>
 
-                        <img src="img/icones/github.png" class="imgGithub"/>
+                        <a href="https://github.com/erickmota" target="_blank"><img src="img/icones/github.png" class="imgGithub"/></a>
 
                     </li>
 
                     <li>
 
-                        <img src="img/icones/linkedin.png" class="imgLinkedin"/>
+                        <a href="https://www.linkedin.com/in/erick-mota-8328a9149/" target="_blank"><img src="img/icones/linkedin.png" class="imgLinkedin"/></a>
                         
                     </li>
 
                     <li>
 
-                        <img src="img/icones/instagram.png" class="imgInstagram"/>
+                        <a href="https://www.instagram.com/ericklmota/" target="_blank"><img src="img/icones/instagram.png" class="imgInstagram"/></a>
+
+                    </li>
+
+                    <li>
+                        
+                        <a href="mailto:erick_fcsaopaulo@hotmai.com" target="_blank"><img src="img/icones/email.png" class="imgEmail"/></a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="https://api.whatsapp.com/send?phone=5515996331314&text=Olá, estou entrando em contato através do seu portfólio." target="_blank"><img src="img/icones/wpp.png" class="imgWpp"/></a>
 
                     </li>
 
@@ -114,12 +125,6 @@
         </div>
 
         <div class="row justify-content-center">
-
-            <div id="iconeScroll" class="col-12 text-center mt-5">
-
-                <img id="imgScroll" src="img/icones/scroll.png" class="imgScroll d-none animate__animated animate__slow animate__repeat-2"/>
-
-            </div>
 
         </div>
 
@@ -170,6 +175,8 @@
                             <li>MySQL</li>
                             <li>SQL Server</li>
                             <li>SQLite</li>
+                            <li>DBA</li>
+                            <li>Consumo de API</li>
 
                         </ul>
         
@@ -217,9 +224,9 @@
 
                         <div class="mt-4">
 
-                            <a class="links fs-5" href="#">Acessar sistema</a>
+                            <a class="links fs-5" href="https://biblia.erickmota.com/" target="_blank">Acessar sistema</a>
 
-                            <a class="links fs-5" href="#">Repositório</a>
+                            <a class="links fs-5" href="https://github.com/erickmota/biblia" target="_blank">Repositório</a>
 
                         </div>
 
@@ -252,6 +259,13 @@
             </div>
 
         </div>
+
+    </div>
+
+    <!-- Icone Scroll -->
+    <div id="iconeScroll" class="col-12 text-center">
+
+        <img id="imgScroll" src="img/icones/scroll.png" class="imgScroll animate__animated animate__slow animate__repeat-2"/>
 
     </div>
 
@@ -288,7 +302,7 @@
 
                         <div class="mt-4">
 
-                            <a class="links fs-5" href="#">Baixar na Play Storee</a>
+                            <a class="links fs-5" href="https://play.google.com/store/apps/details?id=com.erickmota.contadias&hl=en" target="_blank">Baixar na Play Store</a>
 
                         </div>
 
@@ -302,6 +316,7 @@
                             <li>Bootstrap</li>
                             <li>Phonegap</li>
                             <li>SQLite</li>
+                            <li>DBA</li>
 
                         </ul>
         
@@ -347,9 +362,9 @@
 
                         <div class="mt-4">
 
-                            <a class="links fs-5" href="#">Baixar no Google drive</a>
+                            <a class="links fs-5" href="https://drive.google.com/drive/folders/14pMqyoX04N61cqYuGvB7pr1InZc_rHzI" target="_blank">Baixar no Google drive</a>
 
-                            <a class="links fs-5" href="#">Repositório</a>
+                            <a class="links fs-5" href="https://github.com/erickmota/hinario" target="_blank">Repositório</a>
 
                         </div>
 
@@ -363,6 +378,7 @@
                             <li>Bootstrap</li>
                             <li>Phonegap</li>
                             <li>SQLite</li>
+                            <li>DBA</li>
 
                         </ul>
         
@@ -391,18 +407,18 @@
         
                         <p class="sobre">
                         
-                        Bíblia, é um sistema web, para ajudar na leitura e estudo bíblico, nele é possível selecionar livro e capítulo
-                        para leitura, do novo e antigo testamento. Atualmente ele possui 3 versões para serem escolhidas pelo usuário, e
-                        tem um sistema para realizar a buscar de versículos desejados.
+                        O Manulá Beby é um e-commerce desenvolvido do zero, desde a arquitetura do banco de dados relacional, até o layout
+                        das páginas, ele tem um sistema de administrador onde é possível cadastrar novos produtos, editar produtos postados,
+                        gerenciar os pedidos realizados e criar novas promoções, onde é possível inserir ou remover qualquer produto, dentro
+                        dessa promoção. O sistema de pagamento foi contruido em cima da API do Pagseguro, e os usuários que realizam as compras,
+                        podem ter o controle do carrinho de compras, status da compra e etc...
                         
                         
                         </p>
 
                         <div class="mt-4">
 
-                            <a class="links fs-5" href="#">Acessar sistema</a>
-
-                            <a class="links fs-5" href="#">Repositório</a>
+                            <a class="links fs-5" href="https://github.com/erickmota/manulababy" target="_blank">Repositório</a>
 
                         </div>
 
@@ -417,6 +433,8 @@
                             <li>Bootstrap</li>
                             <li>Jquery</li>
                             <li>MySQL</li>
+                            <li>DBA</li>
+                            <li>Consumo de API</li>
 
                         </ul>
         
@@ -449,22 +467,22 @@
 
                     <div class="col-5 text-light text-start">
 
-                        <h2 class="tituloSobre">OSCAR JOIAS</h2>
+                        <h2 class="tituloSobre">OSCAR JÓIAS</h2>
         
                         <p class="sobre">
                         
-                        Bíblia, é um sistema web, para ajudar na leitura e estudo bíblico, nele é possível selecionar livro e capítulo
-                        para leitura, do novo e antigo testamento. Atualmente ele possui 3 versões para serem escolhidas pelo usuário, e
-                        tem um sistema para realizar a buscar de versículos desejados.
+                            O Oscar Jóias é um e-commerce desenvolvido do zero, desde a arquitetura do banco de dados relacional, até o layout
+                            das páginas, ele tem um sistema de administrador onde é possível cadastrar novos produtos, editar produtos postados,
+                            gerenciar os pedidos realizados e modificar preços em massa por categoria, o adm pode selecionar a categoria desejada
+                            e incluir uma porcentagem a mais ou a menos em todos os produtos. O sistema de pagamento foi contruido em cima
+                            da API do Pagseguro, e os usuários que realizam as compras, podem ter o controle do carrinho de compras, status da compra e etc...
                         
                         
                         </p>
 
                         <div class="mt-4">
 
-                            <a class="links fs-5" href="#">Acessar sistema</a>
-
-                            <a class="links fs-5" href="#">Repositório</a>
+                            <a class="links fs-5" href="https://github.com/erickmota/oscarjoias" target="_blank">Repositório</a>
 
                         </div>
 
@@ -479,6 +497,8 @@
                             <li>Bootstrap</li>
                             <li>Jquery</li>
                             <li>MySQL</li>
+                            <li>DBA</li>
+                            <li>Consumo de API</li>
 
                         </ul>
         
@@ -515,18 +535,17 @@
         
                         <p class="sobre">
                         
-                        Bíblia, é um sistema web, para ajudar na leitura e estudo bíblico, nele é possível selecionar livro e capítulo
-                        para leitura, do novo e antigo testamento. Atualmente ele possui 3 versões para serem escolhidas pelo usuário, e
-                        tem um sistema para realizar a buscar de versículos desejados.
-                        
+                        O Anotações bíblica foi um sistema web para leitura e estudo da bíblia, onde ele funcionava basicamente como
+                        uma rede social bíblica. Nele era possível realizar marcações e comentários em versículos desejados. Nos comentários
+                        o usuário podia escolher se queria deixa-lo como provado ou público, se ele escolhesse como público, todos que entrassem
+                        naquele versículo, poderia ler o seu comentário. Também era possível seguir os usuários do sistema, para vizualizar os
+                        comentários daquela pessoa com mais facilidade.                        
                         
                         </p>
 
                         <div class="mt-4">
 
-                            <a class="links fs-5" href="#">Acessar sistema</a>
-
-                            <a class="links fs-5" href="#">Repositório</a>
+                            <a class="links fs-5" href="https://github.com/erickmota/anotacoes_biblicas" target="_blank">Repositório</a>
 
                         </div>
 
@@ -541,6 +560,7 @@
                             <li>Bootstrap</li>
                             <li>Jquery</li>
                             <li>MySQL</li>
+                            <li>DBA</li>
 
                         </ul>
         
@@ -552,6 +572,46 @@
                             <source src="img/biblia.mp4" type="video/mp4">
                         </video>
         
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid" id="rodape">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 text-center text-light mt-5">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-12">
+
+                        © Copyright 2024 / Ícones por <a href="https://icons8.com/" target="_blank" class="icon8">Icons8</a>
+
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-center">
+
+                    <div class="col-12 text-center mt-3">
+
+                        <a href="https://github.com/erickmota" target="_blank"><img src="img/icones/github.png" class="iconeGit"></a>
+
+                        <a href="https://www.linkedin.com/in/erick-mota-8328a9149/" target="_blank"><img src="img/icones/linkedin.png" class="iconeGit"></a>
+
+                        <a href="https://www.instagram.com/ericklmota/" target="_blank"><img src="img/icones/instagram.png" class="iconeGit"></a>
+
+                        <a href="mailto:erick_fcsaopaulo@hotmai.com" target="_blank"><img src="img/icones/email.png" class="iconeGit"></a>
+
+                        <a href="https://api.whatsapp.com/send?phone=5515996331314&text=Olá, estou entrando em contato através do seu portfólio." target="_blank"><img src="img/icones/wpp.png" class="iconeGit"></a>
+
                     </div>
 
                 </div>

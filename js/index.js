@@ -5,8 +5,7 @@
 document.addEventListener("DOMContentLoaded", function() {
                             
     setTimeout(mostraNome, 300);
-    setTimeout(mostraScroll, 10000);
-    setInterval(pulsaScroll, 11000);
+    setInterval(pulsaScroll, 7000);
 
 });
 
@@ -55,14 +54,6 @@ function mostraAtribrutos(){
         loop: true,
 
     });
-
-}
-
-function mostraScroll(){
-
-    var elemento = document.getElementById("imgScroll");
-
-    elemento.classList.remove("d-none");
 
 }
 
