@@ -1,0 +1,269 @@
+body{
+
+    background-color: #212121;
+
+}
+
+/* Página home */
+#fundo{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.03;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+
+}
+
+#pgHome{
+
+    min-height: 100vh;
+
+}
+
+#barraInicio{
+
+    width: 100%;
+    height: 68px;
+    background-color: #0f0f0f;
+    position:fixed;
+    z-index: 100;
+
+}
+
+#logo{
+
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+#menu ul{
+
+    display: inline-block;
+    padding-left: 15px;
+
+}
+
+#menu a{
+
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+#divCentro{
+
+    position: absolute;
+    top: 28%;
+
+}
+
+#divIcones{
+
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    background-color: aliceblue;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: -30px;
+
+}
+
+.nomePrincipal{
+
+    font-size: 30px;
+
+}
+
+#listaIcones{
+
+    margin-top: 20px;
+
+}
+
+#listaIcones li{
+
+    display: block;
+    margin-left: -10px;
+
+}
+
+.imgGithub{
+
+    width: 30px;
+    padding-bottom: 5px;
+
+}
+
+.imgLinkedin{
+
+    width: 37px;
+    padding-bottom: 3px;
+
+}
+
+.imgInstagram{
+
+    width: 37px;
+
+}
+
+.imgEmail{
+
+    width: 38px;
+    margin-top: -2px;
+
+}
+
+.imgWpp{
+
+    width: 30px;
+    margin-left: -5px;
+
+}
+
+#iconeScroll{
+
+    position: relative;
+    bottom: 80px;
+
+}
+
+.imgScroll{
+
+    width: 45px;
+    opacity: 0.4;
+
+}
+
+/* Página Sobre */
+#pgSobre{
+
+    min-height: 100vh;
+    background-color: #212121;
+
+}
+
+#contPgSobre{
+
+    position: relative;
+    margin-top: 12%;
+
+}
+
+#fotoErick{
+
+    cursor: default;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+    box-shadow: 15px 10px 15px black;
+
+
+}
+
+.tituloSobre{
+
+    color: #4f98f9;
+
+}
+
+.listaSkill li{
+
+    display: inline-block;
+    padding: 2px 8px;
+    margin-bottom: 10px;
+    min-width: 60px;
+    border-left: 4px solid #4f98f9;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.textoSobre{
+
+    margin-top: 50px;
+
+}
+
+/* Página Projetos */
+#pgProjetos{
+
+    min-height: 100vh;
+
+}
+
+#contpgProjetos{
+
+    position: relative;
+    margin-top: 7%;
+
+}
+
+#fotoProjeto{
+
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 15px 10px 15px black;
+
+}
+
+#fotoProjetoMobile{
+
+    height: 85vh;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 15px 10px 15px black;
+
+}
+
+.links{
+
+    padding-right: 15px;
+
+}
+
+/* Projetos individuais */
+#contpgProjetosInd{
+
+    position: relative;
+    margin-top: 10%;
+
+}
+
+/* Rodapé */
+#rodape{
+
+    width: 100%;
+    height: 200px;
+    background-color: #0f0f0f;
+    margin-top: 200px;
+
+}
+
+.iconeGit{
+
+    width: 40px;
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.icon8{
+
+    color: #FFF;
+
+}

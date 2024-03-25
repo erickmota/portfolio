@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             
     setTimeout(mostraNome, 300);
     setInterval(pulsaScroll, 7000);
+    reproduzirVideo();
 
 });
 
@@ -47,7 +48,7 @@ function mostraAtribrutos(){
 
     var typed = new Typed('.atributos', {
 
-        strings: ['Desenvolvimento de sites institucionais', 'Desenvolvimento de sistemas web', 'Desenvolvimento de aplicativos móveis', 'Sistemas responsivos', 'Programação orientada a objetos', 'Programação em PHP', 'Programação em JavaScript', 'Linguagens de marcação, como HTML e CSS', 'Bibliotecas front-end, como Bootstrap', 'Banco de dados relacional'],
+        strings: ['Desenvolvimento de sites institucionais', 'Desenvolvimento de sistemas web', 'Desenvolvimento de aplicativos móveis Android e IOS', 'Sites responsivos', 'Programação orientada a objetos', 'Programação em PHP', 'Programação em JavaScript', 'Linguagens de marcação, como HTML e CSS', 'Bibliotecas front-end, como Bootstrap e Jquery', 'Projetar banco de dados relacional'],
         typeSpeed: 50,
         backSpeed: 10,
         cursorChar: '|',

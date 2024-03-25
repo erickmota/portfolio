@@ -135,7 +135,7 @@ body{
 
 .imgScroll{
 
-    width: 45px;
+    width: 60px;
     opacity: 0.4;
 
 }
@@ -158,8 +158,8 @@ body{
 #fotoErick{
 
     cursor: default;
-    width: 400px;
-    height: 400px;
+    width: 70%;
+    height: 75%;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
