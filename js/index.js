@@ -31,7 +31,7 @@ function mostraSlogan(){
 
     var typed = new Typed('.slogan', {
 
-        strings: ['Olá, me chamo Erick Mota, tenho 27 anos e sou formado em<br>análise e desenvolvimento de sistemas.<br><br>Tenho conhecimento em:'],
+        strings: ['Olá, me chamo Erick Mota, tenho 27 anos e sou formado em<br>análise e desenvolvimento de sistemas.<br><br>Eu posso fazer:'],
         typeSpeed: 30,
         cursorChar: '',
         onComplete: (self) => {
@@ -48,7 +48,7 @@ function mostraAtribrutos(){
 
     var typed = new Typed('.atributos', {
 
-        strings: ['Desenvolvimento de sites institucionais', 'Desenvolvimento de sistemas web', 'Desenvolvimento de aplicativos móveis Android e IOS', 'Sites responsivos', 'Programação orientada a objetos', 'Programação em PHP', 'Programação em JavaScript', 'Linguagens de marcação, como HTML e CSS', 'Bibliotecas front-end, como Bootstrap e Jquery', 'Projetar banco de dados relacional'],
+        strings: ['Desenvolvimento de sites institucionais', 'Desenvolvimento de sistemas web', 'Desenvolvimento de aplicativos móveis Android e IOS', 'Criação de sites responsivos', 'Programação orientada a objetos', 'Programação em PHP', 'Programação em JavaScript', 'Uso de linguagens de marcação, como HTML e CSS', 'Uso de bibliotecas front-end, como Bootstrap e Jquery', 'Modelagem de banco de dados relacional'],
         typeSpeed: 50,
         backSpeed: 10,
         cursorChar: '|',
