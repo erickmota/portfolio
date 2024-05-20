@@ -18,7 +18,10 @@ const skills = [
             /* 12 */ "SQLite",
             /* 13 */ "Modelagem banco de dados",
             /* 14 */ "Criação de API",
-            /* 15 */ "Consumo de API"
+            /* 15 */ "Consumo de API",
+            /* 16 */ "GIT",
+            /* 17 */ "Programação orientada a objetos",
+            /* 18 */ "Programação orientada a componentes"
     
 ];
 
@@ -38,9 +41,12 @@ const skills_sobre = `
     <li>${skills[10]}</li>
     <li>${skills[11]}</li>
     <li>${skills[12]}</li>
-    <li>${skills[13]}</li>
+    <li>${skills[16]}</li>
     <li>${skills[14]}</li>
     <li>${skills[15]}</li>
+    <li>${skills[13]}</li>
+    <li>${skills[18]}</li>
+    <li>${skills[17]}</li>
 
 `;
 
@@ -54,6 +60,8 @@ const skills_biblia = `
     <li>${skills[6]}</li>
     <li>${skills[7]}</li>
     <li>${skills[10]}</li>
+    <li>${skills[16]}</li>
+    <li>${skills[17]}</li>
 
 `;
 
@@ -67,6 +75,7 @@ const skills_contaDias = `
     <li>${skills[9]}</li>
     <li>${skills[12]}</li>
     <li>${skills[13]}</li>
+    <li>${skills[16]}</li>
 
 `;
 
@@ -80,6 +89,7 @@ const skills_hinario = `
     <li>${skills[9]}</li>
     <li>${skills[12]}</li>
     <li>${skills[13]}</li>
+    <li>${skills[16]}</li>
 
 `;
 
@@ -95,6 +105,8 @@ const skills_manula = `
     <li>${skills[10]}</li>
     <li>${skills[13]}</li>
     <li>${skills[15]}</li>
+    <li>${skills[16]}</li>
+    <li>${skills[17]}</li>
 
 `;
 
@@ -110,6 +122,8 @@ const skills_oscar = `
     <li>${skills[10]}</li>
     <li>${skills[13]}</li>
     <li>${skills[15]}</li>
+    <li>${skills[16]}</li>
+    <li>${skills[17]}</li>
 
 `;
 
@@ -124,6 +138,8 @@ const skills_anotacoes = `
     <li>${skills[7]}</li>
     <li>${skills[10]}</li>
     <li>${skills[13]}</li>
+    <li>${skills[16]}</li>
+    <li>${skills[17]}</li>
 
 `;
 
