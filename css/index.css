@@ -1,6 +1,6 @@
 body{
 
-    background-color: #212121;
+    background-color: #1f1f1f;
 
 }
 
@@ -26,7 +26,7 @@ body{
 
     width: 100%;
     height: 68px;
-    background-color: #0f0f0f;
+    background-color: #000;
     position:fixed;
     z-index: 100;
 
@@ -57,7 +57,7 @@ body{
 #divCentro{
 
     position: absolute;
-    top: 35%;
+    top: 30%;
 
 }
 
@@ -70,12 +70,6 @@ body{
     width: 80px;
     border-radius: 10px;
     margin-left: -30px;
-
-}
-
-.nomePrincipal{
-
-    font-size: 50px;
 
 }
 
@@ -144,14 +138,14 @@ body{
 #pgSobre{
 
     min-height: 100vh;
-    background-color: #212121;
+    background-color: #1f1f1f;
 
 }
 
 #contPgSobre{
 
     position: relative;
-    margin-top: 12%;
+    margin-top: 10%;
 
 }
 
@@ -241,7 +235,7 @@ body{
 
     width: 100%;
     height: 200px;
-    background-color: #0f0f0f;
+    background-color: #000;
     margin-top: 200px;
 
 }
@@ -259,5 +253,105 @@ body{
 .icon8{
 
     color: #FFF;
+
+}
+
+/* Index.js */
+
+.slogan{
+
+    color: #EEE;
+
+}
+
+.variavel{
+
+    color: #9cdcf0;
+
+}
+
+.fazer{
+
+    color: #dcdcaa;
+
+}
+
+.const{
+
+    color: #2d7ad6;
+
+}
+
+.parenteses{
+
+    color: #da70cb;
+
+}
+
+.seta{
+
+    color: #2d7ad6;
+
+}
+
+.conchete{
+
+    color: #da70cb;
+
+}
+
+.conchete2{
+
+    color: #da70cb;
+
+}
+
+.console{
+
+    color: #9cdcf0;
+
+}
+
+.log{
+
+    color: #dcdcaa;
+
+}
+
+.parenteses2{
+
+    color: #ffd710;
+
+}
+
+.atributos{
+
+    color: #4f98f9;
+
+}
+
+.parenteses3{
+
+    color: #ffd710;
+
+}
+
+.menor{
+
+    font-size: 50px;
+    color: #808080;
+
+}
+
+.maior{
+
+    font-size: 50px;
+    color: #808080;
+
+}
+
+.nomePrincipal{
+
+    font-size: 50px;
 
 }
