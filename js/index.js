@@ -10,12 +10,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+const time_escrita = 30;
+const time_escrita_lenta = 50;
+
 function menor(){
 
     var typed = new Typed('.menor', {
 
         strings: ['&lt;'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita_lenta,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -32,7 +35,7 @@ function mostraNome(){
     var typed = new Typed('.nomePrincipal', {
 
         strings: ['BEM-VINDO AO MEU PORTFÓLIO'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -49,7 +52,7 @@ function maior(){
     var typed = new Typed('.maior', {
 
         strings: ['/&gt;'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita_lenta,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -66,7 +69,7 @@ function mostrarVariavel(){
     var typed = new Typed('.variavel', {
 
         strings: ['<br>$hello_world'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -83,7 +86,7 @@ function igual(){
     var typed = new Typed('.igual', {
 
         strings: [' = '],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -100,7 +103,7 @@ function mostraSlogan(){
     var typed = new Typed('.slogan', {
 
         strings: ['&quot;Olá, me chamo Erick Mota, tenho 27 anos e sou formado em<br>análise e desenvolvimento de sistemas.&quot;'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -117,7 +120,7 @@ function ponto_virgula(){
     var typed = new Typed('.ponto_virgula', {
 
         strings: [';<br><br>'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -134,7 +137,7 @@ function constt(){
     var typed = new Typed('.const', {
 
         strings: ['const'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -151,7 +154,7 @@ function oqueFazer(){
     var typed = new Typed('.fazer', {
 
         strings: ['eu_posso_fazer'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -168,7 +171,7 @@ function igual2(){
     var typed = new Typed('.igual2', {
 
         strings: ['='],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -185,7 +188,7 @@ function parenteses(){
     var typed = new Typed('.parenteses', {
 
         strings: ['()'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -202,7 +205,7 @@ function seta(){
     var typed = new Typed('.seta', {
 
         strings: ['=>'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -219,7 +222,7 @@ function conchete(){
     var typed = new Typed('.conchete', {
 
         strings: ['{<br>'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -236,7 +239,7 @@ function consoles(){
     var typed = new Typed('.console', {
 
         strings: ['console'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -253,7 +256,7 @@ function ponto(){
     var typed = new Typed('.ponto', {
 
         strings: ['.'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -270,7 +273,7 @@ function log(){
     var typed = new Typed('.log', {
 
         strings: ['log'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -287,7 +290,7 @@ function parenteses2(){
     var typed = new Typed('.parenteses2', {
 
         strings: ['('],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -304,7 +307,7 @@ function mostraAtribrutos(){
     var typed = new Typed('.atributos', {
 
         strings: ['&quot;Desenvolvimento de sites institucionais&quot;', '&quot;Desenvolvimento de sistemas web&quot;', '&quot;Desenvolvimento de aplicativos móveis Android e IOS&quot;', '&quot;Criação de sites responsivos&quot;', '&quot;Programação orientada a objetos&quot;', '&quot;Programação em PHP&quot;', '&quot;Programação em JavaScript&quot;', '&quot;Uso de linguagens de marcação, como HTML e CSS&quot;', '&quot;Uso de bibliotecas front-end, como Bootstrap e Jquery&quot;', '&quot;Modelagem de banco de dados relacional&quot;'],
-        typeSpeed: 50,
+        typeSpeed: time_escrita_lenta,
         backSpeed: 10,
         cursorChar: '|',
         loop: true,
@@ -327,7 +330,7 @@ function parenteses3(){
     var typed = new Typed('.parenteses3', {
 
         strings: [')'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
 
@@ -344,7 +347,7 @@ function conchete2(){
     var typed = new Typed('.conchete2', {
 
         strings: ['<br>}'],
-        typeSpeed: 30,
+        typeSpeed: time_escrita,
         cursorChar: '',
 
     });
