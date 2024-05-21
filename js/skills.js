@@ -22,7 +22,8 @@ const skills = [
             /* 16 */ "GIT",
             /* 17 */ "POO",
             /* 18 */ "POC",
-            /* 19 */ "GitHub"
+            /* 19 */ "GitHub",
+            /* 20 */ "UI/UX"
     
 ];
 
@@ -49,6 +50,7 @@ const skills_sobre = `
     <li>${skills[14]}</li>
     <li>${skills[15]}</li>
     <li>${skills[13]}</li>
+    <li>${skills[20]}</li>
 
 `;
 
@@ -65,6 +67,7 @@ const skills_biblia = `
     <li>${skills[10]}</li>
     <li>${skills[16]}</li>
     <li>${skills[19]}</li>
+    <li>${skills[20]}</li>
 
 `;
 
@@ -79,6 +82,7 @@ const skills_contaDias = `
     <li>${skills[12]}</li>
     <li>${skills[13]}</li>
     <li>${skills[16]}</li>
+    <li>${skills[20]}</li>
 
 `;
 
@@ -94,6 +98,7 @@ const skills_hinario = `
     <li>${skills[13]}</li>
     <li>${skills[16]}</li>
     <li>${skills[19]}</li>
+    <li>${skills[20]}</li>
 
 `;
 
@@ -112,6 +117,7 @@ const skills_manula = `
     <li>${skills[15]}</li>
     <li>${skills[16]}</li>
     <li>${skills[19]}</li>
+    <li>${skills[20]}</li>
 
 `;
 
@@ -130,6 +136,7 @@ const skills_oscar = `
     <li>${skills[15]}</li>
     <li>${skills[16]}</li>
     <li>${skills[19]}</li>
+    <li>${skills[20]}</li>
 
 `;
 

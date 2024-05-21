@@ -187,7 +187,7 @@ function parenteses(){
 
     var typed = new Typed('.parenteses', {
 
-        strings: ['()'],
+        strings: ['( )'],
         typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
@@ -306,7 +306,7 @@ function mostraAtribrutos(){
 
     var typed = new Typed('.atributos', {
 
-        strings: ['&quot;Desenvolvimento de sites institucionais&quot;', '&quot;Desenvolvimento de sistemas web&quot;', '&quot;Desenvolvimento de aplicativos móveis Android e IOS&quot;', '&quot;Criação de sites responsivos&quot;', '&quot;Programação orientada a objetos&quot;', '&quot;Programação em PHP&quot;', '&quot;Programação em JavaScript&quot;', '&quot;Uso de linguagens de marcação, como HTML e CSS&quot;', '&quot;Uso de bibliotecas front-end, como Bootstrap e Jquery&quot;', '&quot;Modelagem de banco de dados relacional&quot;'],
+        strings: ['&quot;Desenvolvimento de sites institucionais&quot;', '&quot;Desenvolvimento de sistemas web&quot;', '&quot;Desenvolvimento de aplicativos móveis Android e IOS&quot;', '&quot;Criação de sites responsivos&quot;', '&quot;Programação orientada a objetos&quot;', '&quot;Programação orientada a componentes&quot;', '&quot;Programação em PHP&quot;', '&quot;Programação em JavaScript&quot;', '&quot;Uso de linguagens de marcação, como HTML e CSS&quot;', '&quot;Uso de bibliotecas front-end, como Bootstrap e Jquery&quot;', '&quot;Modelagem de banco de dados&quot;'],
         typeSpeed: time_escrita_lenta,
         backSpeed: 10,
         cursorChar: '|',
