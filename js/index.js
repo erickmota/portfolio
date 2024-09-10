@@ -238,7 +238,7 @@ function consoles(){
 
     var typed = new Typed('.console', {
 
-        strings: ['console'],
+        strings: ['document'],
         typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
@@ -272,7 +272,7 @@ function log(){
 
     var typed = new Typed('.log', {
 
-        strings: ['log'],
+        strings: ['write'],
         typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
