@@ -102,7 +102,7 @@ function mostraSlogan(){
 
     var typed = new Typed('.slogan', {
 
-        strings: ['&quot;Olá, me chamo Erick Mota, tenho 27 anos e sou formado em<br>análise e desenvolvimento de sistemas.&quot;'],
+        strings: ['&quot;Olá, me chamo Erick Mota, tenho 28 anos e sou formado em<br>análise e desenvolvimento de sistemas.&quot;'],
         typeSpeed: time_escrita,
         cursorChar: '',
         onComplete: (self) => {
