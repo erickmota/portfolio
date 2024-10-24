@@ -1,8 +1,35 @@
 <html>
 
-<header>
+<head>
 
-    <title>Erick Mota</title>
+    <title>Erick Mota - Desenvolvimento</title>
+    <meta name="description" content="Desenvolvimento full stack - web e mobile" />
+
+    <script type="application/ld+json">
+
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Portfólio de Erick Mota",
+          "description": "Explore meu portfólio de projetos, onde compartilho minhas habilidades em desenvolvimento de software e design.",
+          "url": "https://erickmota.com/",
+          "author": {
+            "@type": "Person",
+            "name": "Erick Mota",
+            "url": "https://erickmota.com/"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Erick Mota",
+            "url": "https://erickmota.com/"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/ericklmota/",
+            "https://github.com/erickmota"
+          ]
+        }
+
+    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,12 +53,12 @@
     <link rel="stylesheet" href="css/indexCel.css" type="text/css" media="all and (min-width: 0px) and (max-width: 990px)">
     <script src="js/index.js" defer></script>
 
-</header>
+</head>
 
 <body>
 
     <!-- Pagina Home -->
-    <div class="container-fluid" id="pgHome">
+    <header class="container-fluid" id="pgHome">
 
         <div id="barraInicio" class="row justify-content-center">
 
@@ -59,13 +86,17 @@
 
             <div class="col-10 text-end mt-1">
 
-                <menu id="menu" class="text-light fw-bold">
+                <nav id="menu" class="text-light fw-bold">
 
-                    <ul><a href="#pgHome">INICIO</a></ul>
-                    <ul><a href="#pgSobre">SOBRE</a></ul>
-                    <ul><a href="#pgProjetos">PROJETOS</a></ul>
+                    <ul>
 
-                </menu>
+                        <li><a href="#pgHome">INICIO</a></li>
+                        <li><a href="#pgSobre">SOBRE</a></li>
+                        <li><a href="#pgProjetos">PROJETOS</a></li>
+
+                    </ul>
+
+                </nav>
 
             </div>
 
@@ -74,6 +105,9 @@
         <div class="row justify-content-center">
 
             <div id="divCentro" class="col-8 col-md-10 text-light text-center">
+
+                <h1 class="d-none">Erick Mota - Desenvolvimento</h1>
+                <h2 class="d-none">Desenvolvimento full stack - web e mobile</h2>
 
                 <span class="text-center menor fw-bold"></span><span class="text-center nomePrincipal fw-bold"></span><span class="text-center maior fw-bold"></span>
 
@@ -88,7 +122,7 @@
 
         <div class="row">
 
-            <div id="divIcones" class="col-12 text-light mt-5 text-end">
+            <aside id="divIcones" class="col-12 text-light mt-5 text-end">
 
                 <ul id="listaIcones">
 
@@ -124,7 +158,7 @@
 
                 </ul>
 
-            </div>
+            </aside>
 
         </div>
 
@@ -132,10 +166,10 @@
 
         </div>
 
-    </div>
+    </header>
 
     <!-- Página Sobre -->
-    <div class="container-fluid" id="pgSobre">
+    <section class="container-fluid" id="pgSobre">
 
         <div class="row justify-content-center">
 
@@ -157,11 +191,11 @@
 
                     <div class="col-12 col-lg-5 text-light text-start textoSobre" data-aos="zoom-in-up">
 
-                        <h2 class="tituloSobre">SOBRE MIM</h2>
+                        <h1 class="tituloSobre fs-2">SOBRE MIM</h1>
         
                         <p class="sobre">
                         
-                            Com 27 anos e morador de Votorantim-SP, sou apaixonado por criar coisas novas, e no desenvolvimento de software
+                            Com 28 anos e morador de Votorantim-SP, sou apaixonado por criar coisas novas, e no desenvolvimento de software
                             encontro minha realização. Formado em Análise e Desenvolvimento de Sistemas, gosto de
                             transformar ideias em soluções práticas e inovadoras. A cada novo projeto, busco aprender e me aprimorar,
                             explorando novas tecnologias para entregar sempre o melhor resultado.
@@ -184,10 +218,10 @@
 
         </div>
 
-    </div>
+    </section>
 
-    <!-- Página projetos / Bíblia -->
-    <div class="container-fluid" id="pgProjetos">
+    <!-- Página projetos / Landing Page My Buy-->
+    <section class="container-fluid" id="pgProjetos">
 
         <div class="row justify-content-center">
 
@@ -207,13 +241,76 @@
 
                     <div class="col-12 col-lg-6 col-xl-5 text-light text-start">
 
+                        <h2 class="tituloSobre">LANDING PAGE - MY BUY</h2>
+        
+                        <p class="sobre">
+                        
+                            O My Buy, é meu próximo aplicativo a ser lançado. Ele será uma lista de compras,
+                            onde usuários poderam criar, editar, compartilhar e organizar sua rotina de compras
+                            no supermecado. Esse página é uma landing page para apresentação e captação de e-mails,
+                            para o lançamento da versão beta.                        
+                        
+                        </p>
+
+                        <div class="mt-4">
+
+                            <a class="links fs-5" href="https://mybuy.erickmota.com/" target="_blank">Acessar</a>
+
+                            <a class="links fs-5" href="https://github.com/erickmota/Landing_page_My_buy" target="_blank">Repositório</a>
+
+                        </div>
+
+                        <h2 class="tituloSobre mt-4">SKILLS UTILIZADAS</h2>
+
+                        <ul id="div_landing_mybuy" class="listaSkill text-dark text-start mt-3">
+
+                            <!-- JavaScript -->
+
+                        </ul>
+        
+                    </div>
+
+                    <div class="col-12 col-lg-6 col-xl-5 text-light text-end">
+        
+                        <video id="fotoProjeto" controls muted poster="img/capas-video/landing_mybuy.png">
+                            <source src="img/videos-projetos/landing_mybuy.mp4" type="video/mp4">
+                        </video>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Icone Scroll -->
+    <div id="iconeScroll" class="col-12 text-center d-none d-xl-block">
+
+        <img id="imgScroll" src="img/icones/scroll.png" class="imgScroll animate__animated animate__slow animate__repeat-2"/>
+
+    </div>
+
+    <!-- Página projetos Bíblia -->
+    <section class="container-fluid" id="pgProjetos">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12" id="contpgProjetosInd" data-aos="fade-up" data-aos-anchor-placement="top-center">
+
+                <div class="row justify-content-center mt-5">
+
+                    <div class="col-12 col-lg-6 col-xl-5 text-light text-start">
+
                         <h2 class="tituloSobre">BÍBLIA</h2>
         
                         <p class="sobre">
                         
-                        Bíblia, é um sistema web, para ajudar na leitura e estudo bíblico, nele é possível selecionar livros e capítulos
-                        para leitura, do novo e antigo testamento. Atualmente ele possui 3 versões para serem escolhidas pelo usuário, e
-                        tem um sistema para realizar a busca de versículos desejados.
+                            Bíblia, é um sistema web, para ajudar na leitura e estudo bíblico, nele é possível selecionar livros e capítulos
+                            para leitura, do novo e antigo testamento. Atualmente ele possui 3 versões para serem escolhidas pelo usuário, e
+                            tem um sistema para realizar a busca de versículos desejados.
                         
                         
                         </p>
@@ -250,17 +347,10 @@
 
         </div>
 
-    </div>
-
-    <!-- Icone Scroll -->
-    <div id="iconeScroll" class="col-12 text-center d-none d-xl-block">
-
-        <img id="imgScroll" src="img/icones/scroll.png" class="imgScroll animate__animated animate__slow animate__repeat-2"/>
-
-    </div>
+    </section>
 
     <!-- Página projetos Conta dias -->
-    <div class="container-fluid d-none d-lg-block" id="pgProjetos">
+    <section class="container-fluid d-none d-lg-block" id="pgProjetos">
 
         <div class="row justify-content-center">
 
@@ -312,10 +402,10 @@
 
         </div>
 
-    </div>
+    </section>
 
     <!-- Página projetos Conta dias Celular  -->
-    <div class="container-fluid d-block d-lg-none" id="pgProjetos">
+    <section class="container-fluid d-block d-lg-none" id="pgProjetos">
 
         <div class="row justify-content-center">
 
@@ -367,10 +457,10 @@
 
         </div>
 
-    </div>
+    </section>
 
     <!-- Página projetos Hinário -->
-    <div class="container-fluid d-none d-lg-block" id="pgProjetos">
+    <section class="container-fluid d-none d-lg-block" id="pgProjetos">
 
         <div class="row justify-content-center">
 
@@ -424,10 +514,10 @@
 
         </div>
 
-    </div>
+    </section>
 
     <!-- Página projetos Hinário Celular -->
-    <div class="container-fluid d-block d-lg-none" id="pgProjetos">
+    <section class="container-fluid d-block d-lg-none" id="pgProjetos">
 
         <div class="row justify-content-center">
 
@@ -481,10 +571,10 @@
 
         </div>
 
-    </div>
+    </section>
 
     <!-- Página projetos Manulá -->
-    <div class="container-fluid" id="pgProjetos">
+    <section class="container-fluid" id="pgProjetos">
 
         <div class="row justify-content-center">
 
@@ -537,10 +627,10 @@
 
         </div>
 
-    </div>
+    </section>
 
     <!-- Página projetos Oscar Joias -->
-    <div class="container-fluid" id="pgProjetos">
+    <section class="container-fluid" id="pgProjetos">
 
         <div class="row justify-content-center">
 
@@ -593,10 +683,10 @@
 
         </div>
 
-    </div>
+    </section>
 
     <!-- Página projetos Anotações Bíblicas -->
-    <div class="container-fluid" id="pgProjetos">
+    <section class="container-fluid" id="pgProjetos">
 
         <div class="row justify-content-center">
 
@@ -648,13 +738,13 @@
 
         </div>
 
-    </div>
+    </section>
 
     <!-- JS das skills de cada projeto -->
     <script src="js/skills.js"></script>
 
     <!-- Rodapé -->
-    <div class="container-fluid" id="rodape">
+    <footer class="container-fluid" id="rodape">
 
         <div class="row justify-content-center">
 
@@ -692,7 +782,7 @@
 
         </div>
 
-    </div>
+    </footer>
 
 </body>
 

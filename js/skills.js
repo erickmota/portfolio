@@ -54,6 +54,22 @@ const skills_sobre = `
 
 `;
 
+/* Landing Page My Buy */
+const skills_landing_mybuy = `
+
+    <li>${skills[0]}</li>
+    <li>${skills[1]}</li>
+    <li>${skills[2]}</li>
+    <li>${skills[3]}</li>
+    <li>${skills[17]}</li>
+    <li>${skills[6]}</li>
+    <li>${skills[10]}</li>
+    <li>${skills[16]}</li>
+    <li>${skills[19]}</li>
+    <li>${skills[20]}</li>
+
+`;
+
 /* Bíblia */
 const skills_biblia = `
 
@@ -159,6 +175,7 @@ const skills_anotacoes = `
 
 /* Recebendo todas as divs */
 let div_sobre = document.getElementById("div_sobre");
+let div_landing_mybuy = document.getElementById("div_landing_mybuy");
 let div_biblia = document.getElementById("div_biblia");
 let div_contaDias = document.getElementById("div_contaDias");
 let div_contaDiasM = document.getElementById("div_contaDiasM");
@@ -170,6 +187,7 @@ let div_anotacoes = document.getElementById("div_anotacoes");
 
 /* Alterando os HTML's */
 div_sobre.innerHTML = skills_sobre;
+div_landing_mybuy.innerHTML = skills_landing_mybuy;
 div_biblia.innerHTML = skills_biblia;
 div_contaDias.innerHTML = skills_contaDias;
 div_contaDiasM.innerHTML = skills_contaDias;
